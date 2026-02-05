@@ -3,6 +3,19 @@
 ### Introduction:
 This project aims to improve the accuracy of their fraud detection machine learning model. The model is a binary classifier, but it is not working well because the data is imbalanced. To solove this problem, this project will use generative adversarial networks (GANs), a type of Generative AI, to generate synthetic fraudulent transactions that are indistinguishable from real transactions. This will help to balance the dataset and improve the accuracy of the fraud detection model.
 
+🧰 Tools & Techniques:
+Tensorflow, Keras, PCA, Pandas, Matplotlib
+
+🚀 Approach:
+- Preprocess and Explore the data
+- Create the Generator model
+- Data Preprocessing for Neural Networks
+- Create the Discriminator model
+- Combine Generator and Discriminator models to Build The GAN
+- Train and evaluate our GAN
+- Generate synthetic data using the trained Generator
+- Principal Component Analysis for Data visualization
+
 ## Model Evaluation:
 
 Calculate the accuracy score for Generative AI:
